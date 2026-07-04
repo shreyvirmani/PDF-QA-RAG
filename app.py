@@ -16,6 +16,15 @@ from dotenv import load_dotenv
 load_dotenv()
 
 hf_token = os.environ.get("HF_TOKEN")
+
+#------------------------------
+# Google API Key 
+#------------------------------
+
+from llm import get_llm
+
+llm_model = get_llm()
+
 # -----------------------------
 # Project Paths
 # -----------------------------
