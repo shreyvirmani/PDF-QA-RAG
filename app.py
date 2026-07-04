@@ -21,7 +21,7 @@ hf_token = os.environ.get("HF_TOKEN")
 # Google API Key 
 #------------------------------
 
-from llm import get_llm
+from src.llm import get_llm
 
 llm_model = get_llm()
 
